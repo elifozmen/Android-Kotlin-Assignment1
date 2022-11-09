@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">assignment1</string>
+    <string name="album">Album</string>
+    <string name="lyric">Lyric</string>
+    <string-array name="album_array">
+        <item>Taylor Swift</item>
+        <item>Fearless</item>
+        <item>Speak Now</item>
+        <item>Red</item>
+        <item>1989</item>
+        <item>Reputation</item>
+        <item>Lover</item>
+        <item>Folklore</item>
+        <item>Evermore</item>
+        <item>Midnights</item>
+    </string-array>
+    <string-array name="lyric_array">
+        <item>"I am just a girl, trying to find a place in this world."</item>
+        <item>"I don't know why but with you I would dance in a storm in my best dress, fearless."</item>
+        <item>"I see sparks fly whenever you smile"</item>
+        <item>"Loving him was red"</item>
+        <item>"Darling I am a nightmare dressed like a daydream"</item>
+        <item>"My reputation never been worse so you must like me for me"</item>
+        <item>"When it comes to a lover, I promise that you'll never find another like ME!"</item>
+        <item>"My mind turns your life into folklore"</item>
+        <item>"This pain could not be for evermore"</item>
+        <item>"Meet me at midnight"</item>
+    </string-array>
+    <string-array name="albumdesc_array">
+        <item>Taylor Swift is the debut studio album by American singer-songwriter Taylor Swift. It was released by Big Machine Records on October 24, 2006.</item>
+        <item>Fearless is the 2nd studio album by American singer-songwriter Taylor Swift. It was released November 11, 2008, by Big Machine Records. </item>
+        <item>Speak Now is the 3rd studio album by American singer-songwriter Taylor Swift, released on October 25, 2010, through Big Machine Records. </item>
+        <item>Red is the 4th studio album by American singer-songwriter Taylor Swift. It was released on October 22, 2012, by Big Machine Records.</item>
+        <item>1989 is the 5th studio album by American singer-songwriter Taylor Swift. It was released on October 27, 2014, by Big Machine Records. </item>
+        <item>Reputation is the 6th studio album by American singer-songwriter Taylor Swift. It was released on November 10, 2017, by Big Machine Records.</item>
+        <item>Lover is the 7th studio album by American singer-songwriter Taylor Swift. It was released on August 23, 2019, through Republic Records. </item>
+        <item>Folklore is the 8th studio album by American singer-songwriter Taylor Swift. It was a surprise album, released on July 24, 2020, via Republic Records.</item>
+        <item>Evermore is the 9th studio album by American singer-songwriter Taylor Swift. It was a surprise album released on December 11, 2020, via Republic Records. </item>
+        <item>Midnights is the 10th studio album by American singer-songwriter Taylor Swift, released on October 21, 2022, via Republic Records.</item>
+    </string-array>
+</resources>

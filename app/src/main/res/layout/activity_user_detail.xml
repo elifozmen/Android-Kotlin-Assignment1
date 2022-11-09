@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="user"
+            type="com.example.assignment1.model.User" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UserDetailActivity">
+
+
+        <TextView
+            android:id="@+id/userNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:text="@{user.name}"
+            android:textColor="#0B0B0B"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/userProfileDescView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:text="@{user.albumDesc}"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/userNameView"
+            app:layout_constraintTop_toBottomOf="@+id/userNameView" />
+
+        <TextView
+            android:id="@+id/userAddressView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text="@{user.lyric}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/userProfileDescView"
+            app:layout_constraintTop_toBottomOf="@+id/userProfileDescView" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/titleFragment"
+            android:name="com.example.assignment1.TitleFragment"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/purple_700"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+
+
+
+
